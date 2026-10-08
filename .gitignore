@@ -38,3 +38,11 @@ htmlcov/
 
 /Testcase/Cli_commands.txt
 
+logs/*.log
+
+# Local setup instructions
+local_email_setup.txt
+
+# Maven / Java
+target/
+*.iml

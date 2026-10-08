@@ -1,0 +1,3 @@
+Recording command
+
+npx playwright codegen "https://stage-dealeradmin.eshopdemo.net/widget/eprice_dynamic_cta?vin=1C4PJXAN1TW231747&dealer_code=23066&vehicle_type=new"

@@ -1,2 +1,0 @@
-def customLogger():
-    return None
