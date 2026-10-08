@@ -27,7 +27,7 @@ jobs:
       env:
         EMAIL_APP_PASSWORD: ${{ secrets.EMAIL_APP_PASSWORD }}
         DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
-      run: mvn test -Dtest=SmokeTest
+      run: xvfb-run mvn test -Dtest=SmokeTest
 
     - name: Upload Test Reports
       if: always() # Always run this step even if the test fails
